@@ -15,6 +15,6 @@ screen = turtle.Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
-t = turtle.Turtle()
+t = turtle.Turtle(leaguebot_bolt.gif)
 
 ... # Your Code Here
