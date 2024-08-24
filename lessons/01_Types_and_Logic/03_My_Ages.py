@@ -38,6 +38,13 @@ window.withdraw() # Hide the window; we just want to see pop ups
 
 # Ask the user's age
 
+
+age = simpledialog.askstring('question','What is your age?')
+
+if age == 0-2:
+    messagebox.showinfo('What you are', 'You are a baby')
+else if age == 3-5:
+    messagebox.showinfo('What you are 2', 'You are a toddler')
 # Use if statements to determine the age group
 # and create a message
 

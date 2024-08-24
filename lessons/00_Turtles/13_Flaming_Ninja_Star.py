@@ -13,7 +13,7 @@ def getRandomColor():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
 
-colors = ["red", "blue", "green", "yellow", "orange"]
+colors = ["purple", "white", "teal", "pink", "black"]
 
 
 def getNextColor(i):
@@ -34,9 +34,9 @@ t.width(2)
 t.speed(0) 
 
 for i in range(25):
-    t.pencolor(getRandomColor())
+    t.pencolor(getNextColor(i + 2))
 
-    t.fillcolor(getRandomColor()) 
+    t.fillcolor(getNextColor(i)) 
    
     t.begin_fill()
 

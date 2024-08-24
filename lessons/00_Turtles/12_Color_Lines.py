@@ -16,7 +16,7 @@ tina.speed(2)                           # Make the turtle move as fast, but not 
 
 colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 
-for color in colors:                            # loop through the colors
+for color in colors:                              # loop through the colors
     ... # Your code here
 
 
