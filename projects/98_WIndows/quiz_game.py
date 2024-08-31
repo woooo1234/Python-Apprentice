@@ -22,9 +22,9 @@ messagebox.showinfo(message="Your final score is " + str(score))  # ;
 # ASK A QUESTION AND CHECK THE ANSWER
 
 # // 2. Ask the user a question
-
+messagebox.showinfo(message="Your final score is " + str(score))
 # // 3. Use an if statement to check if their answer is correct
-
+if 
 # // 4. if the user's answer was correct, add one to their score
 
 # MAKE MORE QUESTIONS. Ask more questions by repeating the above
