@@ -25,9 +25,11 @@ an error message will be displayed and new definitions will not be added.
 
 
 def add_definition(db, key, value):
+
+    
     """
     Add a new definition to the database.
-
+    
     Parameters:
     - db (dict): The database to add the definition to.
     - key (str): The key for the new definition.
@@ -40,9 +42,9 @@ def add_definition(db, key, value):
     """
 
     # Check the limit
-
+    
     # Set the item in the database
-
+    db['B'] = 'BCDE'
     pass
 
 
