@@ -42,7 +42,7 @@ def ask_integer(prompt):
 
 
 # Pick the random number
-
+secret_number == 8:
 # In your loop:
 
     # Get the user's guess

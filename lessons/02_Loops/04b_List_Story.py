@@ -12,6 +12,6 @@ words = ['Once', '👦', 'upon', '🐕', 'park', 'met', 'with', 'a', 'the',
 story = []
 
 # Create a story using the words in the list
-messagebox.showinfo(('story', 'Once upon a time a 👦 and a 👧 went to the park to play ⚽, they had a 🐈 who met with a 👦.'))
+story == input(('Once upon a time a 👦 and a 👧 went to the park to play ⚽, they had a 🐈 who met with a 👦.'))
 # Display the story to the user
 print('story'.join(story))
