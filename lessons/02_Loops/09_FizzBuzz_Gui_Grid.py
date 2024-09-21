@@ -35,7 +35,14 @@ app = App("Numbers Grid", layout="grid")
 # Or you can use a single loop and calculate the row and column
 for i in range(10):
     for j in range(10):
-        
+        if i % 3 == 0:
+            print("🍄")
+        elif i % 5 == 0:
+            print("🦡")
+        elif i & 15 == 0:
+            print("🐍")
+        else:
+            print(i)
 # In the loop, calculate or increment the number
 
 # Use % determing the display, using fizzbuzz rules
